@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>記号暗記ゲーム</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>記号暗記ゲーム</h1>
+
+  <div id="game-container">
+    <div id="timer-area">
+      <span>残り時間: <span id="time-left">60</span> 秒</span>
+    </div>
+
+    <div id="memorize-area">
+      <div id="memorize-text"></div>
+      <div id="countdown"></div>
+    </div>
+
+    <div id="question-area" style="display:none;">
+      <div id="question-text"></div>
+      <div id="choices"></div>
+    </div>
+
+    <div id="result-area" style="display:none;">
+      <h2>結果発表</h2>
+      <p id="final-score"></p>
+      <button id="restart-btn">もう一度</button>
+    </div>
+
+    <div id="score-area">
+      <span>スコア: <span id="score">0</span></span>
+    </div>
+
+    <button id="start-btn">スタート</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
