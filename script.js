@@ -1,7 +1,7 @@
 const symbols = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "?", "+", "=", "~"];
 
 let score = 0;
-let totalTime = 60; // 全体タイマー
+let totalTime = 30; // 全体タイマー
 let memorizeTime = 3; // 記憶時間（3秒固定）
 let timerInterval;
 let countdownInterval;
