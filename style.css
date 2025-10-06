@@ -1,0 +1,73 @@
+body {
+    font-family: "Segoe UI", "ヒラギノ角ゴ", sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #e0f7ff, #b3e5fc);
+    color: #004c8c;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    background-color: #0288d1;
+    color: white;
+    padding: 15px 0;
+    margin: 0;
+    font-weight: normal;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  #game-container {
+    margin-top: 40px;
+  }
+  
+  #memorize-text, #question-text {
+    font-size: 2rem;
+    letter-spacing: 8px;
+    margin: 20px;
+    color: #01579b;
+  }
+  
+  #choices button {
+    background-color: #81d4fa;
+    border: none;
+    color: #01579b;
+    font-size: 1.5rem;
+    margin: 8px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  #choices button:hover {
+    background-color: #29b6f6;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  #start-btn, #restart-btn {
+    background-color: #0288d1;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.2s;
+  }
+  
+  #start-btn:hover, #restart-btn:hover {
+    background-color: #0277bd;
+  }
+  
+  #timer-area, #score-area {
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+  
+  #countdown {
+    font-size: 1.5rem;
+    color: #0277bd;
+    font-weight: bold;
+  }
