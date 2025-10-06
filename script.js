@@ -27,7 +27,7 @@ restartBtn.addEventListener("click", startGame);
 
 function startGame() {
   score = 0;
-  totalTime = 60;
+  totalTime = 30;
   scoreDisplay.textContent = score;
   startBtn.style.display = "none";
   resultArea.style.display = "none";
